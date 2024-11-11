@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій сайт</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+			background: #B8E1FC;
+			background: radial-gradient(circle farthest-corner at center center, #B8E1FC 13%, #231421 100%);
+        }
+		h1{
+		background: #802F6F;
+background: radial-gradient(ellipse farthest-corner at center center, #802F6F 0%, #DDFFDE 25%, #7515FF 50%, #E5FEFF 75%, #571B52 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .header {
+            padding: 0px;
+            background: none
+        }
+        .header img.logo {
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .banner {
+            width: 100%;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 20px;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        .колаж {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .text {
+            max-width: 80%;
+            padding: 10px;
+            font-size: 1.1em;
+            line-height: 1.6;
+			background: #A600CC;
+background: linear-gradient(to bottom right, #A600CC 0%, #07E0CD 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="preview.png" alt="Логотип" class="logo"> 
+            <h1>HTML.....JavaScript.....CSS</h1>
+        </div>
+
+        <div class="banner">
+            <img src="банер.jpg" alt="банер" class="banner">
+        </div>
+
+        <div class="content">
+            <div class="text">
+                <h2>Вітаю на моєму сайті!</h2>
+                <p>Веб-технологія – це сукупність методів та програмно-технічних засобів, інтегрованих з метою ефективного опрацювання веб-ресурсів, які знаходяться у веб-просторі.</p>
+            </div>
+            <div class="колаж">
+                <img src="коллаж.jpg" alt="колаж" class="колаж">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
